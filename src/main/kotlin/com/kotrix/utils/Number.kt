@@ -1,10 +1,11 @@
-package utils
+package com.kotrix.utils
 
+import com.kotrix.complex.*
 import complex.*
-import real.ColumnVector
-import real.Matrix
-import real.RowVector
-import real.Tensor
+import com.kotrix.real.ColumnVector
+import com.kotrix.real.Matrix
+import com.kotrix.real.RowVector
+import com.kotrix.real.Tensor
 
 val Number.I: ComplexDouble
     get() = ComplexDouble(0, toDouble())

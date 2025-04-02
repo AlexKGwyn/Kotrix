@@ -1,8 +1,9 @@
+import com.kotrix.operations.*
 import operations.*
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import real.Matrix
+import com.kotrix.real.Matrix
 
 internal class OperationTest {
     val mat = Matrix(5, 5, intArrayOf(

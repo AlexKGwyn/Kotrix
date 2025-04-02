@@ -1,8 +1,8 @@
-package complex
+package com.kotrix.complex
 
-import utils.I
-import utils.R
-import utils.toFormattedString
+import com.kotrix.utils.I
+import com.kotrix.utils.R
+import com.kotrix.utils.toFormattedString
 import kotlin.math.*
 
 /**

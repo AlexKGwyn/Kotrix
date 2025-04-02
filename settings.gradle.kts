@@ -1,14 +1,21 @@
+import org.gradle.model.internal.core.ModelNodes.withType
+
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
         mavenCentral()
+        google()
         gradlePluginPortal()
+    }
+}
+
+plugins {
+    kotlin("jvm") version "1.9.20" apply false
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        google()
     }
 }
 

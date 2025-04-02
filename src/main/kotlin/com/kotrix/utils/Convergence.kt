@@ -1,8 +1,8 @@
-package utils
+package com.kotrix.utils
 
-import complex.ComplexDouble
-import complex.ComplexTensor
-import real.Tensor
+import com.kotrix.complex.ComplexDouble
+import com.kotrix.complex.ComplexTensor
+import com.kotrix.real.Tensor
 import kotlin.math.abs
 import kotlin.math.pow
 

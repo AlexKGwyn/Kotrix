@@ -1,11 +1,12 @@
-package operations
+package com.kotrix.operations
 
-import complex.ComplexColumnVector
-import complex.ComplexDouble
-import complex.ComplexMatrix
-import complex.ComplexRowVector
-import real.ColumnVector
-import real.Matrix
+import com.kotrix.complex.ComplexColumnVector
+import com.kotrix.complex.ComplexDouble
+import com.kotrix.complex.ComplexMatrix
+import com.kotrix.complex.ComplexRowVector
+import com.kotrix.real.ColumnVector
+import com.kotrix.real.Matrix
+import com.kotrix.utils.*
 import utils.*
 
 private fun Matrix.calcDegeneracyMap(eigenValues: Array<ComplexDouble>): Map<ComplexDouble, Int> {

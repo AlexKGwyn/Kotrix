@@ -1,10 +1,10 @@
-package complex
+package com.kotrix.complex
 
-import real.Matrix
-import real.Tensor
-import utils.R
-import utils.StringVector
-import utils.pseudoEquals
+import com.kotrix.real.Matrix
+import com.kotrix.real.Tensor
+import com.kotrix.utils.R
+import com.kotrix.utils.StringVector
+import com.kotrix.utils.pseudoEquals
 import kotlin.math.pow
 
 /**

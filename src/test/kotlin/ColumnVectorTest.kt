@@ -1,12 +1,12 @@
-import complex.ComplexColumnVector
+import com.kotrix.complex.ComplexColumnVector
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Test
-import real.ColumnVector
-import real.Matrix
-import real.RowVector
-import utils.R
-import utils.times
+import com.kotrix.real.ColumnVector
+import com.kotrix.real.Matrix
+import com.kotrix.real.RowVector
+import com.kotrix.utils.R
+import com.kotrix.utils.times
 
 internal class ColumnVectorTest {
     private val vec = ColumnVector(4, intArrayOf(1, 2, 3, 4))

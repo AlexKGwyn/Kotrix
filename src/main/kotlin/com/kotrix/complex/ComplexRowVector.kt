@@ -1,10 +1,10 @@
-package complex
+package com.kotrix.complex
 
-import real.ColumnVector
-import real.Matrix
-import real.RowVector
-import real.Tensor
-import utils.R
+import com.kotrix.real.ColumnVector
+import com.kotrix.real.Matrix
+import com.kotrix.real.RowVector
+import com.kotrix.real.Tensor
+import com.kotrix.utils.R
 
 /**
  * Represents a complex row vector. It is also a [Matrix] with shape 1 * [length].

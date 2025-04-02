@@ -1,12 +1,12 @@
-import complex.ComplexMatrix
+import com.kotrix.complex.ComplexMatrix
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Test
-import real.ColumnVector
-import real.Matrix
-import real.RowVector
-import utils.R
-import utils.times
+import com.kotrix.real.ColumnVector
+import com.kotrix.real.Matrix
+import com.kotrix.real.RowVector
+import com.kotrix.utils.R
+import com.kotrix.utils.times
 
 internal class MatrixTest {
     private val mat1 = Matrix(4, 4, intArrayOf(

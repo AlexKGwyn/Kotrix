@@ -1,10 +1,10 @@
-package real
+package com.kotrix.real
 
-import complex.ComplexColumnVector
-import complex.ComplexRowVector
-import utils.R
+import com.kotrix.complex.ComplexColumnVector
+import com.kotrix.complex.ComplexRowVector
+import com.kotrix.utils.R
 import kotlin.math.sqrt
-import utils.times
+import com.kotrix.utils.times
 
 /**
  * Represents real row vector. It is also a [Matrix] with shape 1 * [length].

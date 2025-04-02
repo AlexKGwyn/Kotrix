@@ -1,8 +1,8 @@
-package operations
+package com.kotrix.operations
 
-import complex.ComplexMatrix
-import real.Matrix
-import utils.R
+import com.kotrix.complex.ComplexMatrix
+import com.kotrix.real.Matrix
+import com.kotrix.utils.R
 import kotlin.math.pow
 
 /**

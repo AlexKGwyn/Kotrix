@@ -1,8 +1,8 @@
-package complex
+package com.kotrix.complex
 
-import real.Matrix
-import real.Tensor
-import utils.R
+import com.kotrix.real.Matrix
+import com.kotrix.real.Tensor
+import com.kotrix.utils.R
 import kotlin.math.sqrt
 
 /**

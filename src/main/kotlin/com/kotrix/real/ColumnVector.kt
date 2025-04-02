@@ -1,9 +1,9 @@
-package real
+package com.kotrix.real
 
-import complex.ComplexColumnVector
-import utils.R
+import com.kotrix.complex.ComplexColumnVector
+import com.kotrix.utils.R
 import kotlin.math.sqrt
-import utils.times
+import com.kotrix.utils.times
 
 /**
  * Represents real column vector. It is also a [Matrix] with shape [length] * 1.

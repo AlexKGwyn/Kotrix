@@ -1,8 +1,8 @@
-package real
+package com.kotrix.real
 
-import complex.ComplexMatrix
-import operations.determinant
-import utils.R
+import com.kotrix.complex.ComplexMatrix
+import com.kotrix.operations.determinant
+import com.kotrix.utils.R
 import kotlin.math.cos
 import kotlin.math.pow
 import kotlin.math.sin

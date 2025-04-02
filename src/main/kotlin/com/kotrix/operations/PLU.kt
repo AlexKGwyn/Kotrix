@@ -1,10 +1,10 @@
-package operations
+package com.kotrix.operations
 
-import complex.ComplexMatrix
-import real.Matrix
-import utils.R
-import utils.times
-import utils.div
+import com.kotrix.complex.ComplexMatrix
+import com.kotrix.real.Matrix
+import com.kotrix.utils.R
+import com.kotrix.utils.times
+import com.kotrix.utils.div
 
 /**
  * PLU decomposition of a matrix.

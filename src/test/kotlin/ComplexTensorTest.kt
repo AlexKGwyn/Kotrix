@@ -1,11 +1,11 @@
-import complex.ComplexMatrix
-import complex.ComplexTensor
+import com.kotrix.complex.ComplexMatrix
+import com.kotrix.complex.ComplexTensor
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Test
-import utils.I
-import utils.R
-import utils.times
+import com.kotrix.utils.I
+import com.kotrix.utils.R
+import com.kotrix.utils.times
 
 internal class ComplexTensorTest {
     private val tensor1 = ComplexTensor(intArrayOf(1, 2, 3, 4), Array(1*2*3*4) {(it+1).R})

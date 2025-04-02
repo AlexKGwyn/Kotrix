@@ -1,9 +1,9 @@
-package real
+package com.kotrix.real
 
-import complex.ComplexTensor
-import utils.R
-import utils.StringVector
-import utils.pseudoEquals
+import com.kotrix.complex.ComplexTensor
+import com.kotrix.utils.R
+import com.kotrix.utils.StringVector
+import com.kotrix.utils.pseudoEquals
 import kotlin.math.abs
 import kotlin.math.pow
 

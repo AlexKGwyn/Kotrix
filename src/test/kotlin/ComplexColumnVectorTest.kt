@@ -1,13 +1,13 @@
-import complex.ComplexColumnVector
-import complex.ComplexMatrix
-import complex.ComplexRowVector
+import com.kotrix.complex.ComplexColumnVector
+import com.kotrix.complex.ComplexMatrix
+import com.kotrix.complex.ComplexRowVector
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Test
-import utils.I
-import utils.R
-import utils.times
-import utils.plus
+import com.kotrix.utils.I
+import com.kotrix.utils.R
+import com.kotrix.utils.times
+import com.kotrix.utils.plus
 
 internal class ComplexColumnVectorTest {
     private val vec = ComplexColumnVector(4, arrayOf(1.I, 2.R, 3.I, 4.R))

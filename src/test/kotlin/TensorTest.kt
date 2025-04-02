@@ -1,10 +1,10 @@
-import complex.ComplexTensor
+import com.kotrix.complex.ComplexTensor
 import org.junit.Assert.*
 import org.junit.Test
-import real.Matrix
-import real.Tensor
-import utils.R
-import utils.times
+import com.kotrix.real.Matrix
+import com.kotrix.real.Tensor
+import com.kotrix.utils.R
+import com.kotrix.utils.times
 
 internal class TensorTest {
     private val tensor1 = Tensor(intArrayOf(1,2,3,4), intArrayOf(

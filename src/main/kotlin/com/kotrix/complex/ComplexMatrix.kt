@@ -1,13 +1,13 @@
-package complex
+package com.kotrix.complex
 
-import operations.determinant
-import real.ColumnVector
-import real.Matrix
-import real.Tensor
-import utils.R
-import utils.sum
+import com.kotrix.operations.determinant
+import com.kotrix.real.ColumnVector
+import com.kotrix.real.Matrix
+import com.kotrix.real.Tensor
+import com.kotrix.utils.R
+import com.kotrix.utils.sum
 import kotlin.math.pow
-import utils.times
+import com.kotrix.utils.times
 
 /**
  * Represents complex matrix. [ComplexMatrix] class is a subclass of [ComplexTensor] class.

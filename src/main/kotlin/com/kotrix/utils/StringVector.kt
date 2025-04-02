@@ -1,7 +1,7 @@
-package utils
+package com.kotrix.utils
 
-import complex.ComplexTensor
-import real.Tensor
+import com.kotrix.complex.ComplexTensor
+import com.kotrix.real.Tensor
 
 internal class StringVector(val stringData: ArrayList<String>) {
     override fun toString(): String {

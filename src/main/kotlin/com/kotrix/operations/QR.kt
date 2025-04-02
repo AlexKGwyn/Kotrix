@@ -1,8 +1,8 @@
-package operations
+package com.kotrix.operations
 
-import real.ColumnVector
-import real.Matrix
-import utils.pseudoEquals
+import com.kotrix.real.ColumnVector
+import com.kotrix.real.Matrix
+import com.kotrix.utils.pseudoEquals
 
 /**
  * Calculates QR decomposition of square matrix.
